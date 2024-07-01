@@ -77,3 +77,13 @@ Request Body:
   "email": "testuser@example.com",
   "password": "testpassword"
 }
+
+```
+
+Response:
+```json
+{
+  "message": "Signup successful"
+}
+
+```
