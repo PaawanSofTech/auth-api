@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+</head>
+<body>
+    <h1>User Authentication</h1>
+    <div id="signupForm">
+        <h2>Sign Up</h2>
+        <input type="text" id="signupUsername" placeholder="Username"><br>
+        <input type="email" id="signupEmail" placeholder="Email"><br>
+        <input type="password" id="signupPassword" placeholder="Password"><br>
+        <button onclick="signup()">Sign Up</button>
+        <p id="signupMessage"></p>
+    </div>
+    <div id="loginForm">
+        <h2>Login</h2>
+        <input type="email" id="loginEmail" placeholder="Email"><br>
+        <input type="password" id="loginPassword" placeholder="Password"><br>
+        <button onclick="login()">Login</button>
+        <p id="loginMessage"></p>
+    </div>
+    <div id="profileInfo" style="display: none;">
+        <h2>User Profile</h2>
+        <p><strong>Username:</strong> <span id="profileUsername"></span></p>
+        <p><strong>Email:</strong> <span id="profileEmail"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
