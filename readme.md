@@ -23,6 +23,8 @@ This API provides endpoints for user authentication, including signup, login, pr
 
 - Node.js
 - Express.js
+- React.js
+- Next.js (React Framework)
 - MongoDB (Mongoose)
 - JWT (JSON Web Tokens)
 - Nodemailer (for sending emails)
