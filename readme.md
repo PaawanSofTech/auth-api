@@ -87,3 +87,52 @@ Response:
 }
 
 ```
+
+### POST /api/login
+
+Request Body:
+```json
+{
+  "email": "testuser@example.com",
+  "password": "testpassword"
+}
+
+
+```
+
+Response:
+```json
+{
+  "token": "your_generated_jwt_token",
+  "message": "Login successful"
+}
+
+
+```
+
+### POST /api/profile
+
+Description: Retrieve user profile information.
+
+Authorization: Bearer Token (JWT)
+Resonse:
+```json
+{
+  "token": "your_generated_jwt_token",
+  "message": "Login successful"
+}
+
+
+```
+
+### Usage
+To use the API, ensure you have the necessary environment variables set up (PORT, MONGO_URI, JWT_SECRET, EMAIL_USER, EMAIL_PASS). Then start the server and make requests to the defined endpoints using tools like Postman or any HTTP client.
+
+Testing
+To test the API, you can use tools like Postman for manual testing or create automated tests using testing frameworks like Mocha and Chai.
+
+Documentation
+Additional documentation or references can be added here if needed.
+
+Contributing
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
