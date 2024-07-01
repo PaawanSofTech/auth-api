@@ -64,73 +64,16 @@ This API provides endpoints for user authentication, including signup, login, pr
    ```
 4. **Server is running on: http://localhost:5000:**
 
-API Endpoints
-POST /api/signup
+## API Endpoints
+
+### POST /api/signup
 
 Description: Register a new user.
+
 Request Body:
-json
-Copy code
+```json
 {
   "username": "testuser",
   "email": "testuser@example.com",
   "password": "testpassword"
 }
-Response:
-json
-Copy code
-{
-  "message": "Signup successful"
-}
-POST /api/login
-
-Description: Authenticate user login.
-Request Body:
-json
-Copy code
-{
-  "email": "testuser@example.com",
-  "password": "testpassword"
-}
-Response:
-json
-Copy code
-{
-  "token": "your_generated_jwt_token",
-  "message": "Login successful"
-}
-GET /api/profile
-
-Description: Retrieve user profile information.
-Authorization: Bearer Token (JWT)
-Response:
-json
-Copy code
-{
-  "user": {
-    "username": "testuser",
-    "email": "testuser@example.com"
-  }
-}
-Usage
-To use the API, ensure you have the necessary environment variables set up (PORT, MONGO_URI, JWT_SECRET, EMAIL_USER, EMAIL_PASS). Then start the server and make requests to the defined endpoints using tools like Postman or any HTTP client.
-
-Examples
-Below are examples of API requests and responses for each endpoint.
-
-Testing
-To test the API, you can use tools like Postman for manual testing or create automated tests using testing frameworks like Mocha and Chai.
-
-Documentation
-Additional documentation or references can be added here if needed.
-
-Contributing
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
-
-License
-This project is licensed under the MIT License.
-
-javascript
-Copy code
-
-Feel free to copy and paste this into your `README.md` file. Replace `<re
