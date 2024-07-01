@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+
+# Environment configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn error log
+yarn-error.log*
