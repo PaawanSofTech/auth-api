@@ -29,7 +29,7 @@ This API provides endpoints for user authentication, including signup, login, pr
 - JWT (JSON Web Tokens)
 - Nodemailer (for sending emails)
 
-#### Next.js basic Frontend is also added for reference!!
+### Next.js basic Frontend is also added for reference!!
 
 ## Setup Instructions
 
