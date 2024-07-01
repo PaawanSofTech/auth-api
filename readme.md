@@ -126,9 +126,10 @@ Resonse:
 ```
 
 ### Usage
-To use the API, ensure you have the necessary environment variables set up (PORT, MONGO_URI, JWT_SECRET, EMAIL_USER, EMAIL_PASS). Then start the server and make requests to the defined endpoints using tools like Postman or any HTTP client.
 
-Testing
+- To use the API, ensure you have the necessary environment variables set up (PORT, MONGO_URI, JWT_SECRET, EMAIL_USER, EMAIL_PASS). Then start the server and make requests to the defined endpoints using tools like Postman or any HTTP client.
+
+# Testing
 To test the API, you can use tools like Postman for manual testing or create automated tests using testing frameworks like Mocha and Chai.
 
 Documentation
