@@ -11,9 +11,6 @@ This API provides endpoints for user authentication, including signup, login, pr
 - [Usage](#usage)
 - [Examples](#examples)
 - [Testing](#testing)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
